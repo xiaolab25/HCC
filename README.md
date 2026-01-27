@@ -18,7 +18,11 @@ Spatial Fibroinflammatory Architecture Determines Immune Organization and Therap
 - [Overview](#overview)
 - [Workflow figure](#workflow-figure)
 - [Key contributions](#key-contributions)
+- [Repository analysis](#repository-analysis)
 - [Repository contents](#repository-contents)
+- [Usage](#usage)
+- [Data availability](#data-availability)
+- [Project status](#project-status)
 - [Citation](#citation)
 - [Contact](#contact)
 
@@ -38,12 +42,40 @@ It aims to improve transparency and reproducibility for related tumor microenvir
 - **Therapeutic efficacy**: Links fibroinflammatory patterns to treatment response and clinical outcomes.
 - **Reproducibility**: Provides a clear, shareable workflow and supporting assets.
 
+## Repository analysis
+This repository is intentionally lightweight and focused on the analysis narrative:
+
+- The `code/` directory contains four Jupyter notebooks that form a sequential analysis pipeline:
+  1. `_01.scRNAseq_Integration_majortype.ipynb` integrates single-cell RNA-seq datasets and derives major cell types.
+  2. `_02.scRNAseq_subtype.ipynb` refines the single-cell analysis into finer-grained subtypes.
+  3. `_03.run_pySCENIC_scFEA.ipynb` runs pySCENIC and scFEA to infer regulatory programs and metabolic activity.
+  4. `_04.run_NMF.ipynb` applies NMF for downstream pattern discovery.
+- The `1.png` workflow figure summarizes the full pipeline at a high level.
+- The `Xiaolab.jpg` image is used for branding in this README.
+
+Overall, the repository serves as a companion to the manuscript: it documents the analysis logic and supplies
+the figures needed to communicate the workflow in the paper.
+
 ## Repository contents
 | Path | Description |
 | --- | --- |
 | `1.png` | Paper workflow / analysis pipeline figure. |
 | `Xiaolab.jpg` | Xiaolab logo. |
+| `code/` | Jupyter notebooks for single-cell integration, subtype analysis, pySCENIC/scFEA, and NMF. |
 | `README.md` | Project overview and guidance. |
+
+## Usage
+1. Review the workflow figure for a high-level overview.
+2. Open the notebooks in order (`_01` → `_04`) to follow the analysis sequence.
+3. Each notebook is designed to be self-contained with narrative notes and code cells.
+
+## Data availability
+Data files are not included in this repository. Please refer to the manuscript or supplementary materials for
+details on data sources and access requirements.
+
+## Project status
+This repository is provided as a snapshot of the analysis workflow used in the study. Updates will be
+announced alongside future releases or manuscript revisions.
 
 ## Citation
 If you use this repository in your work, please cite the associated manuscript:
