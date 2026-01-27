@@ -17,6 +17,7 @@ Spatial Fibroinflammatory Architecture Determines Immune Organization and Therap
 ## Table of contents
 - [Overview](#overview)
 - [Workflow figure](#workflow-figure)
+- [Analysis flowchart](#analysis-flowchart)
 - [Key contributions](#key-contributions)
 - [Repository analysis](#repository-analysis)
 - [Repository contents](#repository-contents)
@@ -37,20 +38,31 @@ It aims to improve transparency and reproducibility for related tumor microenvir
   <img src="1.png" alt="Workflow diagram" width="820" />
 </p>
 
+## Analysis flowchart
+<p align="center">
+  <img src="analysis_flowchart.svg" alt="Notebook analysis flowchart" width="820" />
+</p>
+
 ## Key contributions
 - **Spatial architecture**: Quantifies the organization of immune and stromal components in the tumor microenvironment.
 - **Therapeutic efficacy**: Links fibroinflammatory patterns to treatment response and clinical outcomes.
 - **Reproducibility**: Provides a clear, shareable workflow and supporting assets.
 
 ## Repository analysis
-This repository is intentionally lightweight and focused on the analysis narrative:
+This repository is intentionally lightweight and focused on the analysis narrative. The notebooks follow a
+single pipeline that starts with integrated scRNA-seq processing and ends with sample-level pattern discovery:
 
 - The `code/` directory contains four Jupyter notebooks that form a sequential analysis pipeline:
-  1. `_01.scRNAseq_Integration_majortype.ipynb` integrates single-cell RNA-seq datasets and derives major cell types.
-  2. `_02.scRNAseq_subtype.ipynb` refines the single-cell analysis into finer-grained subtypes.
-  3. `_03.run_pySCENIC_scFEA.ipynb` runs pySCENIC and scFEA to infer regulatory programs and metabolic activity.
-  4. `_04.run_NMF.ipynb` applies NMF for downstream pattern discovery.
+  1. `_01.scRNAseq_Integration_majortype.ipynb` performs batch integration, annotates major cell types, and
+     exports harmonized single-cell profiles for downstream analysis.
+  2. `_02.scRNAseq_subtype.ipynb` drills into fibroblast subclusters, annotates functional programs, and
+     scores gene programs (including AUCell-based signatures) to refine subtype-level signals.
+  3. `_03.run_pySCENIC_scFEA.ipynb` infers regulons with pySCENIC and estimates metabolic flux with scFEA
+     to connect transcriptional regulation to functional metabolism.
+  4. `_04.run_NMF.ipynb` applies non-negative matrix factorization to group samples and surface latent
+     patterns for interpretation and reporting.
 - The `1.png` workflow figure summarizes the full pipeline at a high level.
+- The `analysis_flowchart.svg` flowchart visualizes the notebook sequence and dependencies.
 - The `Xiaolab.jpg` image is used for branding in this README.
 
 Overall, the repository serves as a companion to the manuscript: it documents the analysis logic and supplies
@@ -60,6 +72,7 @@ the figures needed to communicate the workflow in the paper.
 | Path | Description |
 | --- | --- |
 | `1.png` | Paper workflow / analysis pipeline figure. |
+| `analysis_flowchart.svg` | Notebook analysis flowchart added for this repository. |
 | `Xiaolab.jpg` | Xiaolab logo. |
 | `code/` | Jupyter notebooks for single-cell integration, subtype analysis, pySCENIC/scFEA, and NMF. |
 | `README.md` | Project overview and guidance. |

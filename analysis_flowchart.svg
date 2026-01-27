@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <defs>
+    <style>
+      .title { font: 700 20px "Arial", sans-serif; fill: #1f2d3d; }
+      .label { font: 14px "Arial", sans-serif; fill: #1f2d3d; }
+      .box { fill: #f5f7fa; stroke: #2f4f4f; stroke-width: 2; rx: 14; }
+      .arrow { stroke: #2f4f4f; stroke-width: 2.5; fill: none; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2f4f4f" />
+    </marker>
+  </defs>
+
+  <text x="40" y="40" class="title">HCC analysis workflow (notebook-driven)</text>
+
+  <rect x="90" y="80" width="800" height="100" class="box" />
+  <text x="490" y="120" text-anchor="middle" class="label">
+    scRNA-seq batch integration &amp; major cell-type annotation
+  </text>
+  <text x="490" y="145" text-anchor="middle" class="label">
+    _01.scRNAseq_Integration_majortype.ipynb
+  </text>
+
+  <rect x="90" y="220" width="800" height="100" class="box" />
+  <text x="490" y="260" text-anchor="middle" class="label">
+    Fibroblast subcluster annotation &amp; functional programs
+  </text>
+  <text x="490" y="285" text-anchor="middle" class="label">
+    _02.scRNAseq_subtype.ipynb
+  </text>
+
+  <rect x="90" y="360" width="800" height="100" class="box" />
+  <text x="490" y="400" text-anchor="middle" class="label">
+    Regulon &amp; metabolic inference (pySCENIC + scFEA)
+  </text>
+  <text x="490" y="425" text-anchor="middle" class="label">
+    _03.run_pySCENIC_scFEA.ipynb
+  </text>
+
+  <rect x="90" y="500" width="800" height="100" class="box" />
+  <text x="490" y="540" text-anchor="middle" class="label">
+    NMF-based sample grouping &amp; pattern discovery
+  </text>
+  <text x="490" y="565" text-anchor="middle" class="label">
+    _04.run_NMF.ipynb
+  </text>
+
+  <line x1="490" y1="180" x2="490" y2="220" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="490" y1="320" x2="490" y2="360" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="490" y1="460" x2="490" y2="500" class="arrow" marker-end="url(#arrowhead)" />
+</svg>
