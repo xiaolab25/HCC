@@ -3,7 +3,7 @@ Spatial Fibroinflammatory Architecture Determines Immune Organization and Therap
 ## Spatial Fibroinflammatory Architecture Determines Immune Organization and Therapeutic Efficacy in Solid Tumors
 
 <p align="center">
-  <img src="Xiaolab.jpg" alt="Xiaolab logo" width="220" />
+  <img src="assets/Xiaolab.jpg" alt="Xiaolab logo" width="220" />
 </p>
 
 <p align="center">
@@ -35,12 +35,12 @@ It aims to improve transparency and reproducibility for related tumor microenvir
 
 ## Workflow figure
 <p align="center">
-  <img src="1.png" alt="Workflow diagram" width="820" />
+  <img src="assets/1.png" alt="Workflow diagram" width="820" />
 </p>
 
 ## Analysis flowchart
 <p align="center">
-  <img src="analysis_flowchart.svg" alt="Notebook analysis flowchart" width="820" />
+  <img src="assets/analysis_flowchart.svg" alt="Notebook analysis flowchart" width="820" />
 </p>
 
 ## Key contributions
@@ -71,9 +71,7 @@ the figures needed to communicate the workflow in the paper.
 ## Repository contents
 | Path | Description |
 | --- | --- |
-| `1.png` | Paper workflow / analysis pipeline figure. |
-| `analysis_flowchart.svg` | Notebook analysis flowchart added for this repository. |
-| `Xiaolab.jpg` | Xiaolab logo. |
+| `assets/` | Static images and figures used in the README. |
 | `code/` | Jupyter notebooks for single-cell integration, subtype analysis, pySCENIC/scFEA, and NMF. |
 | `README.md` | Project overview and guidance. |
 
