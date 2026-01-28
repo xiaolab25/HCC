@@ -8,8 +8,6 @@
 <p align="center">
   <a href="http://47.99.127.101:8501">
 </p>
-
-Companion repository for a manuscript currently under peer review.  
 This repo provides the core computational notebooks and lightweight assets used to run the transcriptomic analysis workflow and generate figures. No results or processed datasets are distributed here.
 
 ---
