@@ -7,10 +7,6 @@
 
 <p align="center">
   <a href="http://47.99.127.101:8501">
-    <img src="https://img.shields.io/badge/Interactive%20Browser-Xenium-2ea44f?style=for-the-badge" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-Under%20peer%20review-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Scope-Methods%20%26%20Code%20only-555?style=for-the-badge" />
 </p>
 
 Companion repository for a manuscript currently under peer review.  
@@ -79,8 +75,7 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ## Data availability
 
-Raw/processed data are not hosted in this repository.  
-Public sources used by the workflow include GEO scRNA-seq cohorts (e.g., GSE149614, GSE151530, GSE156625; plus an additional public dataset described in the manuscript) and TCGA-LIHC bulk RNA-seq. Please refer to the manuscript Methods for the complete dataset list and access details.
+Please refer to the manuscript Methods for the complete dataset list and access details.
 
 ---
 
