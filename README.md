@@ -1,5 +1,4 @@
 # HCC
-Spatial Fibroinflammatory Architecture Determines Immune Organization and Therapeutic Efficacy in Solid Tumors
 ## Spatial Fibroinflammatory Architecture Determines Immune Organization and Therapeutic Efficacy in Solid Tumors
 
 <p align="center">
@@ -12,12 +11,16 @@ Spatial Fibroinflammatory Architecture Determines Immune Organization and Therap
   architecture of solid tumors.
 </p>
 
-<p align="center">
-  <b>Interactive browser:</b>
-  <a href="http://8.136.123.31:8501/">in-house Xenium data</a>
-</p>
+---
+
+## 🔥 Interactive Browser (In-house Xenium)
+
+**Temporary access password:** `HCC2026`
+
+[![Open Browser](https://img.shields.io/badge/Open%20Xenium%20Browser-Click%20Here-brightgreen?style=for-the-badge)](http://8.136.123.31:8501/)
 
 ---
+
 
 ## Table of contents
 - [Overview](#overview)
