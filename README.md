@@ -12,6 +12,11 @@ Spatial Fibroinflammatory Architecture Determines Immune Organization and Therap
   architecture of solid tumors.
 </p>
 
+<p align="center">
+  <b>Interactive browser:</b>
+  <a href="http://8.136.123.31:8501/">in-house Xenium data</a>
+</p>
+
 ---
 
 ## Table of contents
