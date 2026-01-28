@@ -15,8 +15,6 @@
 
 ## 🔥 Interactive Browser (In-house Xenium)
 
-**Temporary access password:** `HCC2026`
-
 [![Open Browser](https://img.shields.io/badge/Open%20Xenium%20Browser-Click%20Here-brightgreen?style=for-the-badge)](http://8.136.123.31:8501/)
 
 ---
