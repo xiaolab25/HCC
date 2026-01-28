@@ -62,17 +62,6 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ---
 
-## Usage
-
-1. Run notebooks sequentially: `_01` → `_07`.
-2. Each notebook expects you to provide local paths to input matrices/metadata (data are not included).
-3. External requirements (not bundled here):
-   - CIBERSORTx (for bulk deconvolution)
-   - pySCENIC cisTarget databases (for regulon inference)
-   - R packages used in downstream steps (e.g., NMF-related tooling)
-
----
-
 ## Data availability
 
 Please refer to the manuscript Methods for the complete dataset list and access details.
