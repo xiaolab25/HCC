@@ -1,8 +1,16 @@
-# HCC
+# HCC Spatial Tumor Ecosystems
 ## Spatial Fibroinflammatory Architecture Determines Immune Organization and Therapeutic Efficacy in Solid Tumors
 
 <p align="center">
   <img src="assets/Xiaolab.jpg" alt="Xiaolab logo" width="200" />
+</p>
+
+<p align="center">
+  <a href="http://47.99.127.101:8501">
+    <img src="https://img.shields.io/badge/Interactive%20Browser-Xenium-2ea44f?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/Status-Under%20peer%20review-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Scope-Methods%20%26%20Code%20only-555?style=for-the-badge" />
 </p>
 
 Companion repository for a manuscript currently under peer review.  
@@ -46,12 +54,15 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ## Workflow covered by the notebooks
 
-1. Integrate multiple public scRNA-seq cohorts into a single reference atlas.
-2. Define/annotate major lineages and refined subtypes; quantify pathway/program activities.
-3. Infer transcriptional regulatory activity (regulons) and metabolic features.
-4. Use the reference to support bulk RNA-seq deconvolution and sample-level ecosystem/module modeling (NMF).
+1. Integrate public HCC scRNA-seq cohorts into a unified reference atlas and annotate major lineages.
+2. Perform lineage-focused re-clustering/subtype annotation and quantify gene programs/signatures.
+3. Infer regulatory and metabolic features from scRNA-seq (e.g., regulons and metabolic flux-related features).
+4. Support bulk RNA-seq deconvolution and sample-level ecosystem/module discovery (e.g., CIBERSORTx + consensus NMF).
+5. Process Visium spatial transcriptomics, map cell states to space, and derive spatial domains/features.
+6. Process Xenium in situ transcriptomics, assign cell states, and run neighborhood/gradient-based spatial analyses (with cross-modality alignment utilities where needed).
+7. Reconstruct pseudotime trajectories for selected lineages (Monocle2-based workflow).
 
-> Spatial transcriptomics (Visium), in situ transcriptomics (Xenium), neighborhood/gradient quantification, and multiplex imaging (e.g., CODEX) analyses are described in the manuscript Methods; this repo focuses on the core transcriptomic notebooks and figure-generation assets.
+> Experimental datasets and analyses (e.g., humanized PDX perturbations, multiplex imaging such as CODEX/mIF, and live imaging) are described in the manuscript Methods; only analysis notebooks and minimal figure assets are organized here.
 
 ---
 
@@ -76,6 +87,7 @@ Public sources used by the workflow include GEO scRNA-seq cohorts (e.g., GSE1496
 ## Status
 
 Snapshot for the current submission; structure and contents may change during peer review.
+
 
 ---
 
