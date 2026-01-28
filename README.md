@@ -26,7 +26,7 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ## What’s in this repository
 
-- `code/` — Jupyter notebooks (run in order)
+- `code/` — Jupyter notebooks 
   1. `_01.scRNAseq_Integration_majortype.ipynb`  
      Build a unified HCC scRNA-seq reference atlas (QC → normalization → batch integration → major lineage annotation), and export harmonized profiles for downstream steps.
   2. `_02.scRNAseq_subtype.ipynb`  
