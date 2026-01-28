@@ -17,7 +17,6 @@ Spatial Fibroinflammatory Architecture Determines Immune Organization and Therap
 ## Table of contents
 - [Overview](#overview)
 - [Workflow figure](#workflow-figure)
-- [Analysis flowchart](#analysis-flowchart)
 - [Key contributions](#key-contributions)
 - [Repository analysis](#repository-analysis)
 - [Repository contents](#repository-contents)
@@ -36,11 +35,6 @@ It aims to improve transparency and reproducibility for related tumor microenvir
 ## Workflow figure
 <p align="center">
   <img src="assets/1.png" alt="Workflow diagram" width="820" />
-</p>
-
-## Analysis flowchart
-<p align="center">
-  <img src="assets/analysis_flowchart.svg" alt="Notebook analysis flowchart" width="820" />
 </p>
 
 ## Key contributions
@@ -62,7 +56,6 @@ single pipeline that starts with integrated scRNA-seq processing and ends with s
   4. `_04.run_NMF.ipynb` applies non-negative matrix factorization to group samples and surface latent
      patterns for interpretation and reporting.
 - The `1.png` workflow figure summarizes the full pipeline at a high level.
-- The `analysis_flowchart.svg` flowchart visualizes the notebook sequence and dependencies.
 - The `Xiaolab.jpg` image is used for branding in this README.
 
 Overall, the repository serves as a companion to the manuscript: it documents the analysis logic and supplies
