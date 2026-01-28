@@ -10,6 +10,12 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ---
 
+## Workflow overview
+
+![Workflow overview](assets/1.png)
+
+---
+
 ## 🌏 Interactive Browser (In-house Xenium)
 
 [![Open Browser](https://img.shields.io/badge/Open%20Xenium%20Browser-Click%20Here-brightgreen?style=for-the-badge)](http://47.99.127.101:8501)
@@ -27,6 +33,12 @@ This repo provides the core computational notebooks and lightweight assets used 
      Regulatory and functional inference from scRNA-seq (pySCENIC regulons; scFEA metabolic flux features).
   4. `_04.run_NMF.ipynb`  
      Sample-level module discovery on bulk-derived cell-state fractions (consensus NMF workflow; downstream grouping/visualization utilities).
+  5. `_05.Visium.ipynb`  
+     Visium spatial transcriptomics processing, cell-type mapping, and spatial feature analyses.
+  6. `_06.xenium.ipynb`  
+     Xenium in situ transcriptomics analyses and cross-modality alignment utilities.
+  7. `_07.monocle2_pseudotime.ipynb`  
+     Pseudotime trajectory inference and lineage progression analysis with Monocle2.
 
 - `assets/` — figures/images used by the README and manuscript-facing materials.
 
@@ -45,7 +57,7 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ## Usage
 
-1. Run notebooks sequentially: `_01` → `_04`.
+1. Run notebooks sequentially: `_01` → `_07`.
 2. Each notebook expects you to provide local paths to input matrices/metadata (data are not included).
 3. External requirements (not bundled here):
    - CIBERSORTx (for bulk deconvolution)
