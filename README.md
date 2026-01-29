@@ -1,5 +1,5 @@
-# HCC Spatial Tumor Ecosystems
-## Spatial Fibroinflammatory Architecture Determines Immune Organization and Therapeutic Efficacy in Solid Tumors
+# Research on the Spatial Niche of Liver Cancer
+## Spatial Fibroinflammatory Architecture Shapes Immune Organization and Therapeutic Responsiveness in Solid Tumors
 
 <p align="center">
   <img src="assets/Xiaolab.jpg" alt="Xiaolab logo" width="200" />
