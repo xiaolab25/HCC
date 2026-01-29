@@ -20,7 +20,7 @@ This repo provides the core computational notebooks and lightweight assets used 
 
 ## 🌏 Interactive Browser (In-house Xenium)
 
-[![Open Browser](https://img.shields.io/badge/Open%20Xenium%20Browser-Click%20Here-brightgreen?style=for-the-badge)](http://47.99.127.101:8501)
+[![Open Browser](https://img.shields.io/badge/Open%20Xenium%20Browser-Click%20Here-brightgreen?style=for-the-badge)](http://47.99.127.101:8501/)
 
 ---
 
