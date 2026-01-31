@@ -41,6 +41,12 @@ This repo provides the core computational notebooks and lightweight assets used 
      Xenium in situ transcriptomics analyses and cross-modality alignment utilities.
   7. `_07.monocle2_pseudotime.ipynb`  
      Pseudotime trajectory inference and lineage progression analysis with Monocle2.
+  8. `_08.infercnv.ipynb`  
+     Copy-number variation inference for malignant cell-state characterization (inferCNV workflow).
+  9. `_09.cell-commu.ipynb`  
+     Cell-cell communication analysis and ligand–receptor interaction profiling.
+  10. `_10.Xenium_PDAC.ipynb`  
+     Xenium analysis workflow for PDAC samples and cross-cohort comparisons.
 
 - `assets/` — figures/images used by the README and manuscript-facing materials.
 
@@ -55,6 +61,9 @@ This repo provides the core computational notebooks and lightweight assets used 
 5. Process Visium spatial transcriptomics, map cell states to space, and derive spatial domains/features.
 6. Process Xenium in situ transcriptomics, assign cell states, and run neighborhood/gradient-based spatial analyses (with cross-modality alignment utilities where needed).
 7. Reconstruct pseudotime trajectories for selected lineages (Monocle2-based workflow).
+8. Infer copy-number variation signals to characterize malignant programs (inferCNV).
+9. Profile cell-cell communication via ligand–receptor interaction analysis.
+10. Analyze Xenium PDAC samples and compare with the main Xenium cohort.
 
 > Experimental datasets and analyses (e.g., humanized PDX perturbations, multiplex imaging such as CODEX/mIF, and live imaging) are described in the manuscript Methods; only analysis notebooks and minimal figure assets are organized here.
 
